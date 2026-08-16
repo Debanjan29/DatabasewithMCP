@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+     "mssql": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tugberkgunver/mcp-sqlserver"
+      ],
+      "env": {
+        "MSSQL_HOST": "${MSSQL_HOST}",
+        "MSSQL_PORT": "${MSSQL_PORT}",
+        "MSSQL_DATABASE": "${MSSQL_DATABASE}",
+        "MSSQL_USER": "${MSSQL_USER}",
+        "MSSQL_PASSWORD": "${MSSQL_PASSWORD}",
+        "MSSQL_ENCRYPT": "${MSSQL_ENCRYPT}"
+      }
+    }
+}
+}
